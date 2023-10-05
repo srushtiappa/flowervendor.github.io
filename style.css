@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #ffcccb; /* Light coral background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #ff4d4d; /* Reddish-pink text color */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff9900; /* Bright orange text color */
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ff4d4d; /* Change to reddish-pink on hover */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('flowers.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ff4d4d; /* Reddish-pink text color */
+}
+
+/* Featured products section styles */
+.featured {
+    background-color: #ffc3a0; /* Light orange background */
+    padding: 40px 0;
+}
+
+.featured h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff9900; /* Bright orange text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
